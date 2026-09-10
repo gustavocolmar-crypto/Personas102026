@@ -12,7 +12,7 @@ public class ControllerHolaMundo {
         return "holaMundo";
     }
 
-    @GetMapping("/otro")
+    @GetMapping("/otros")
     public String hola2(){
         return "hola2";
     }
