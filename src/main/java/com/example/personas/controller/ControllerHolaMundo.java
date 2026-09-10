@@ -17,4 +17,9 @@ public class ControllerHolaMundo {
         return "hola2";
     }
 
+    @GetMapping("/pruebaGit")
+    public String prueba(){
+        return "commit desde git";
+    }
+
 }
