@@ -32,4 +32,9 @@ public class ControllerHolaMundo {
         return "commit desde git";
     }
 
+    @GetMapping("/pruebaGit6")
+    public String prueba6(){
+        return "commit desde git";
+    }
+
 }
